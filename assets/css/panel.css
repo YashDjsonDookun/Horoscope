@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Trebuchet MS;
+    font-size: 23px;
+}
+
+body {
+    background-color: #e3f8fd;
+}
+
+header h1{
+    margin-top: 43px;
+    font-size: 60px;
+    color: #cb29a0;
+    border-bottom: solid 8px #cb29a0;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+form {
+    width: 93%;
+    border: solid 10px #cb29a0;
+    border-radius: 25px;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #f9f0ff;
+}
+
+form div {
+    margin: 15px;
+}
+
+form label {
+    margin-right: 25px;
+    color: #325990;
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+    border: solid 5px #cb29a0;
+    border-radius: 25px;
+    padding: 8px;
+    font-size: 18px;
+    color: #325990;
+    width: 77%;
+}
+
+input[type="text"]{
+    border: solid 4px #cb29a0;
+    border-radius: 8px;
+    padding: 4px;
+    color: #325990;
+    font-size: 20px;
+}
+
+button {
+    border: solid 4px #cb29a0;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #cb29a0;
+    color: white;
+    width: 129px;
+}
+
+.choice {
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-around;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #cb29a0;
+}
+
+input[type="file"] {
+    width: 25%;
+    font-size: 18px;
+    border: solid 4px #cb29a0;
+    border-radius: 8px;
+    color: #325990;
+}
+
+select#horoscope-options {
+    font-size: 20px;
+    border: solid 4px #cb29a0;
+    border-radius: 8px;
+    color: #325990;
+}
+
+p {
+    font-size: 15px;
+    color: #325990;
+}
+
+.horoscope-prediction {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
